@@ -70,6 +70,7 @@ class Post(db.Model):
     def __repr__(self):
         return '<Post {}>'.format(self.body)
 
+123
 
 @login.user_loader
 def load_user(id):
