@@ -209,4 +209,4 @@ def tables():
     # data.set_index(['Name'], inplace=True)
     # data.index.name=None
     # females = data.loc[data.Gender=='f']
-    return render_template('view.html', tables=[data.to_html()])
+    return render_template('tables.html', tables=[data.to_html(classes="table table-striped")])
